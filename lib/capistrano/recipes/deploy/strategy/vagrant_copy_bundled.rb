@@ -83,7 +83,7 @@ module Capistrano
           logger.trace "running bundler in #{destination}..."
 
           bundle_cmd      = configuration[:bundle_cmd]        || "bundle"
-          bundle_flags    = configuration[:bundle_flags]      || "--deployment --quiet"
+          bundle_flags    = configuration[:bundle_flags]      || "--deployment"
           bundle_dir      = configuration[:bundle_dir]        || File.join('vendor', 'bundle')
           bundle_gemfile  = configuration[:bundle_gemfile]    || File.join("Gemfile")
           bundle_without  = [*(configuration[:bundle_without] || [:development, :test])].compact
