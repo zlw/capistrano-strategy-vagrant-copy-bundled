@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "capistrano-strategy-vagrant-copy-bundled"
   s.version     = CapistranoStrategyVagrantCopyBundled::VERSION
   s.authors     = ["Krzysztof Zalewski"]
+  s.email       = ['zlw.zalewski@gmail.com']
 
   s.homepage    = "http://github.com/zlw/capistrano-strategy-vagrant-copy-bundled"
   s.summary     = %q{Capistrano copy recipe to transfer files already pre-bundled via Vagrant}
@@ -21,4 +22,6 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   s.add_runtime_dependency "capistrano", "~> 2"
+  
+  s.add_development_dependency 'rake'
 end
