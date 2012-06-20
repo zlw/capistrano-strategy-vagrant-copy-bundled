@@ -4,7 +4,7 @@ This recipe for capistrano utilizes the regular copy strategy. However,
 instead of bundling the gems on the remote servers, they are already 
 pre-bundled on the Vagrant virtual machine and sent as one package.
 
-Based on [capistrano-strategy-bundled by Rudolf Schmidt](https://github.com/rudionrails/capistrano-strategy-copy-bundled)
+Based on [capistrano-strategy-copy-bundled by Rudolf Schmidt](https://github.com/rudionrails/capistrano-strategy-copy-bundled)
 
 ## Installation
 
